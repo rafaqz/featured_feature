@@ -6,6 +6,7 @@ dependencies[] = ctools
 dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = flag
+dependencies[] = flagging_form
 dependencies[] = text
 dependencies[] = views
 features[ctools][] = views:views_default:3.0

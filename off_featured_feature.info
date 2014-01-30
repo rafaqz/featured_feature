@@ -1,0 +1,14 @@
+name = OFF Featured Feature
+description = Provides a featured content block view and flag for featuring.
+core = 7.x
+package = Collabco
+dependencies[] = fe_block
+dependencies[] = flag
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[fe_block_settings][] = views-featured-block
+features[features_api][] = api:2
+features[flag][] = featured
+features[views_view][] = featured
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the OFF Featured Feature feature.
+ */
+
+include_once 'off_featured_feature.features.inc';

@@ -29,7 +29,7 @@ function off_featured_feature_flag_default_flags() {
     'unflag_long' => '',
     'unflag_message' => '',
     'unflag_denied_text' => '',
-    'link_type' => 'confirm',
+    'link_type' => 'form',
     'weight' => 0,
     'show_in_links' => array(
       'full' => 'full',
@@ -46,13 +46,20 @@ function off_featured_feature_flag_default_flags() {
     'access_author' => '',
     'show_contextual_link' => 0,
     'i18n' => 0,
-    'flag_confirmation' => 'This will set the front page featured item, are you sure you want to do this?',
-    'unflag_confirmation' => 'This will remove the front page featured item, and the last item featured will show instead. Do you want to do this?',
-    'api_version' => 3,
+    'form_flagging_help' => 'This will set the front page featured item. You can remove this flag later to return it to the previous item.
+
+Also add extra text, images, video or any html to be displayed below the featured content.',
+    'form_flagging_button' => '',
+    'form_flagging_delete_button' => '',
+    'form_unflagging_help' => 'This will remove the front page featured item, and the last item featured will show instead.',
+    'form_unflagging_button' => '',
+    'form_unflag_link_leads_to_edit' => 0,
+    'form_interaction' => 'default',
     'module' => 'off_featured_feature',
     'locked' => array(
       0 => 'name',
     ),
+    'api_version' => 3,
   );
   return $flags;
 

@@ -84,6 +84,7 @@ function off_featured_feature_views_default_views() {
   $handler->display->display_options['fields']['ops']['alter']['text'] = 'Edit Featured Flagging';
   $handler->display->display_options['fields']['ops']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['ops']['alter']['path'] = 'flag/flagging/featured/[nid]/create';
+  $handler->display->display_options['fields']['ops']['alter']['link_class'] = 'flag-featured flag-edit';
   $handler->display->display_options['fields']['ops']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['ops']['link_type'] = 'form';
   /* Sort criterion: Flags: Flagged time */

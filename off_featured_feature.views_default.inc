@@ -12,8 +12,8 @@ function off_featured_feature_views_default_views() {
 
   $view = new view();
   $view->name = 'featured';
-  $view->description = '';
-  $view->tag = 'default';
+  $view->description = 'Show the most recent content tagged as featured, with extra tag fields.';
+  $view->tag = 'Featured Feature';
   $view->base_table = 'node';
   $view->human_name = 'Featured';
   $view->core = 7;

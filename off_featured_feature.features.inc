@@ -31,10 +31,10 @@ function off_featured_feature_flag_default_flags() {
     'title' => 'Featured',
     'global' => 1,
     'types' => array(),
-    'flag_short' => 'Feature this item',
+    'flag_short' => 'Feature this content',
     'flag_long' => '',
     'flag_message' => '',
-    'unflag_short' => 'Unfeature this item',
+    'unflag_short' => 'Unfeature this content',
     'unflag_long' => '',
     'unflag_message' => '',
     'unflag_denied_text' => '',
@@ -55,12 +55,12 @@ function off_featured_feature_flag_default_flags() {
     'access_author' => '',
     'show_contextual_link' => 0,
     'i18n' => 0,
-    'form_flagging_help' => 'This will set the front page featured item. You can remove this flag later to return it to the previous item.
+    'form_flagging_help' => 'This will set the front page featured content. You can remove this flag later to return it to the previous content.
 
 Also add extra text, images, video or any html to be displayed below the featured content.',
     'form_flagging_button' => '',
     'form_flagging_delete_button' => '',
-    'form_unflagging_help' => 'This will remove the front page featured item, and the last item featured will show instead.',
+    'form_unflagging_help' => 'This will remove the front page featured content, and the last content featured will show instead.',
     'form_unflagging_button' => '',
     'form_unflag_link_leads_to_edit' => 0,
     'form_interaction' => 'default',

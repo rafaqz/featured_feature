@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_featured_feature.features.inc
+ * featured_feature.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function off_featured_feature_ctools_plugin_api($module = NULL, $api = NULL) {
+function featured_feature_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -16,14 +16,14 @@ function off_featured_feature_ctools_plugin_api($module = NULL, $api = NULL) {
 /**
  * Implements hook_views_api().
  */
-function off_featured_feature_views_api($module = NULL, $api = NULL) {
+function featured_feature_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
 /**
  * Implements hook_flag_default_flags().
  */
-function off_featured_feature_flag_default_flags() {
+function featured_feature_flag_default_flags() {
   $flags = array();
   // Exported flag: "Featured".
   $flags['featured'] = array(
@@ -64,7 +64,7 @@ Also add extra text, images, video or any html to be displayed below the feature
     'form_unflagging_button' => '',
     'form_unflag_link_leads_to_edit' => 0,
     'form_interaction' => 'default',
-    'module' => 'off_featured_feature',
+    'module' => 'featured_feature',
     'locked' => array(
       0 => 'name',
     ),

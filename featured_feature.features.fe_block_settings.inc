@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_featured_feature.features.fe_block_settings.inc
+ * featured_feature.features.fe_block_settings.inc
  */
 
 /**
  * Implements hook_default_fe_block_settings().
  */
-function off_featured_feature_default_fe_block_settings() {
+function featured_feature_default_fe_block_settings() {
   $export = array();
 
   $export['version'] = '2.0';

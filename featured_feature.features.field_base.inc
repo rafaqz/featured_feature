@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_featured_feature.features.field_base.inc
+ * featured_feature.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function off_featured_feature_field_default_field_bases() {
+function featured_feature_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_featured_extras'

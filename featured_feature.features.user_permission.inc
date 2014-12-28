@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_featured_feature.features.user_permission.inc
+ * featured_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function off_featured_feature_user_default_permissions() {
+function featured_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'flag featured'.

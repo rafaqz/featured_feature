@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the OFF Featured Feature feature.
+ * Code for the Featured Feature.
  */
 
 include_once 'featured_feature.features.inc';

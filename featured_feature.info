@@ -1,7 +1,7 @@
-name = OFF Featured Feature
+name = Featured Feature
 description = Provides a featured content block view and flag for featuring.
 core = 7.x
-package = Collabco
+package = Features
 dependencies[] = ctools
 dependencies[] = fe_block
 dependencies[] = features

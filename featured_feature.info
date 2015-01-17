@@ -21,4 +21,3 @@ features[user_permission][] = flag featured
 features[user_permission][] = unflag featured
 features[variable][] = field_bundle_settings_flagging__featured
 features[views_view][] = featured
-project path = sites/all/modules/features
